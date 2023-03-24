@@ -234,12 +234,15 @@ section#avaliacao{
     color: var(--cor-da-empresa);
     text-shadow: 1px 1px black;
 }
-.bi{
-    font-size: 35px;
-    color: var(--cor-da-empresa);
-    text-shadow: 1px 1px black;
+.bi-hand-thumbs-up{
+    font-size: 40px;
 }
+.bi-hand-thumbs-down{
+    font-size: 40px;
+}
+
 #frase-avaliacao{
     font-size: 25px;
     padding: 1.5rem;
+    color: var(--cor-da-empresa);
 }

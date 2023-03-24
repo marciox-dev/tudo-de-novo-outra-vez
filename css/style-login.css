@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;600;800&display=swap');
+
+* {
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* vh é a unidade viewport, permitindo que o body defina um valor mínimo de altura com base
+    na altura do viewport do usuário*/
+}
+
+:root {
+    --background-clean: #F6F1F1;
+    --cor-da-empresa: #146C94;
+    --cor-detalhes: #19A7CE;
+}
+
+/* Estilização do HEADER - NAV */
+.cabecalho {
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1252270160/photo/july-4th-background-red-white-and-blue-colors-with-soft-faded-watercolor-border-texture.jpg?b=1&s=170667a&w=0&k=20&c=b4Jiz00QaNbepwYJqO4P0hSbJX6eBjEf8mrmPEUQy04=);
+}
+
+.menu .ul-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ul-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: var(--cor-da-empresa);
+    font-size: 50px;
+}
+
+.ul-menu li p {
+    font-size: 40px;
+}
+
+ul li#img-localizacao {
+    display: flex;
+    align-items: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+/* Estlização do FOOTER */
+.footer {
+    background-color: var(--background-clean);
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-card a {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-item {
+    margin: 1rem;
+    font-size: 30px;
+    color: var(--cor-detalhes);
+}
+
+.footer-nome-item {
+    font-size: 15px;
+    color: var(--cor-da-empresa);
+}
+i.bi:hover{
+    color: var(--cor-da-empresa);
+}
+
+#topo-login div {
+    display: flex;
+    
+    font-size: 20px;
+    color: var(--cor-da-empresa);
+    padding-top: 2rem;
+}
+
+.bi-chevron-double-left {
+    padding-left: 4rem;
+    font-size: 35px;
+}
+section div h1{
+    padding-left: 630px;
+}
+
+/* Estilização  LOGIN*/
+section#caixa-login{
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    border: 3px outset var(--cor-da-empresa);
+    border-radius: 20px;
+    box-shadow: 1px 1px gray;
+    margin: 2rem;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+I.bi-file-earmark-image{
+    font-size: 50px;
+}
+div button{
+    width: 70%;
+    
+}
+
+div.info{
+    padding-bottom: 1rem;
+}
+
+h3{
+    padding-top: 1rem;
+}

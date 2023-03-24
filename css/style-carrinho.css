@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;600;800&display=swap');
+
+* {
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* vh é a unidade viewport, permitindo que o body defina um valor mínimo de altura com base
+    na altura do viewport do usuário*/
+}
+
+:root {
+    --background-clean: #F6F1F1;
+    --cor-da-empresa: #146C94;
+    --cor-detalhes: #19A7CE;
+}
+
+/* Estilização do HEADER - NAV */
+.cabecalho {
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1252270160/photo/july-4th-background-red-white-and-blue-colors-with-soft-faded-watercolor-border-texture.jpg?b=1&s=170667a&w=0&k=20&c=b4Jiz00QaNbepwYJqO4P0hSbJX6eBjEf8mrmPEUQy04=);
+}
+
+.menu .ul-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ul-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: var(--cor-da-empresa);
+    font-size: 50px;
+}
+
+.ul-menu li p {
+    font-size: 40px;
+}
+
+ul li#img-localizacao {
+    display: flex;
+    align-items: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+/* Estlização do FOOTER */
+.footer {
+    background-color: var(--background-clean);
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-card a {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-item {
+    margin: 1rem;
+    font-size: 30px;
+    color: var(--cor-detalhes);
+}
+
+.footer-nome-item {
+    font-size: 15px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi:hover {
+    color: var(--cor-da-empresa);
+}
+
+/* Estilização section TOPO CARRINHO*/
+#topo-carrinho div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--cor-da-empresa);
+    padding-top: 2rem;
+}
+
+.bi-chevron-double-left {
+    padding-left: 4rem;
+    font-size: 35px;
+}
+
+.bi-cart-x {
+    padding-right: 4rem;
+    font-size: 35px;
+}
+
+/* Estilização section PRODUTO*/
+/* #produto{
+    display: flex;
+} */
+
+#contagem-produto{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    border: 3px outset var(--cor-da-empresa);
+    border-radius: 20px;
+    box-shadow: 1px 1px gray;
+    margin: 2rem;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    box-shadow: 2px 2px var(--cor-detalhes);
+}
+#numeracao-produtos{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 1.5rem;
+}
+#numeracao-produtos p{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+i.bi-file-image{
+    font-size: 60px;
+    padding-left: 2rem;
+}
+i.bi-trash{
+    font-size: 30px;
+    padding-right: 2rem;
+}
+li#trash{
+    padding-right: 2rem;
+}
+
+/* Estilização section CUPONS */
+#cupons{
+    border-radius: 70px;
+    padding-left: 1rem;
+    width: 25%;
+}
+#espaco-cupons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+#button-cupons{
+    width: 15%;
+    margin-left: 2rem;
+}
+
+/* Estilização section TABELA */
+div#tabela-preco{
+display: flex;
+justify-content: center;
+text-align: center;
+padding-bottom: 2rem;
+margin: auto;
+}
+
+section#pagamento{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+button#button-pagamento{
+    border-radius: 5px;
+width: 50%;
+}
